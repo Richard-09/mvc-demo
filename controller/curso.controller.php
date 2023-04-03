@@ -21,6 +21,10 @@ if (isset($_POST['operacion'])){
 
   }
 
+  if ($_POST['operacion'] == 'buscarID'){
+    
+  }
+
 }
 
 
