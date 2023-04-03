@@ -1,5 +1,6 @@
 <?php
 
+//Clase = Plamtilla => creamos objetos | Compone => Atributos, metodos(verbo)
 class Curso{
   //Atributo
   //Arreglo Asociativo multidimensional
