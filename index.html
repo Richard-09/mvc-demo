@@ -19,8 +19,10 @@
     <div class="card">
       <div class="card-body">
         <button type="button" class="btn btn-outline-success btn-sm" id="cargardatos">Cargar Datos</button>
-        <button type="button" class="btn btn-outline-success btn-sm" id="btn-pruebas">Prueba</button>
+        <span id="mensaje-carga" class="d-none">Cargando por favor espera...</span>
+
         <hr>
+
         <table class="table text-centero table-striped table-sm" id="tabla-cursos"> 
             <thead>
               <tr>
@@ -54,6 +56,7 @@
 
     $("#cargardatos").click(mostrarDatos);
     //$("#btn-pruebas").click(Prueba);
+    $("#mensaje-carga").removeClass("d-none")
 
     function mostrarDatos(){
       //Comunicacion asincrona/AJAX con el controlador
@@ -87,6 +90,9 @@
                 $("#tabla-cursos tbody").append(nuevafila);
               });
           }
+        },
+        complete: function(){
+          $("#mensaje-carga").addClass("d-none")
         } //Fin success
       }); //Fin Ajax
     } //Fin mostarDatos
