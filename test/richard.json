@@ -1,0 +1,38 @@
+{
+  "infopersonal": {
+    "datos": {
+      "apellidos" : "De la Cruz Campos",
+      "nombres": "Richard",
+      "edad": 20,
+      "telefono" : "961118837"
+    },
+    "mifamilia":{
+      "Padres"  : ["Richard", "Natali"],
+      "Hermanos": ["Valentina", "Adriano"]
+    }
+  },
+  "formacion":  {
+    "primaria"    : ["JPB"],
+    "Secundaria"  : ["JPB"],
+    "superior"    : ["SENATI"]
+  },
+  "habilidades": {
+    "deportivas" :{
+      "futbol"  : ["Equipo A", "Equipo B", "EquipoE"],
+      "Karate"  : ["Cinta verde", "Cinta negra"]
+    },
+    "sociales"  :{
+      "intrapersonales": ["autocontrol", "autoestima", "resilencia"],
+      "interpersonales": ["Liderazgo", "Trabajo en equipo"]
+    },
+    "profesional":{
+      "lenguajes" : ["PHP", "C++", "Python", "JS", "CSS", "SQL"],
+      "basesatos" : ["MySQL", "MS SQL Server", "Oracle DB", "SQLite"]
+    }
+  }
+}
+
+
+
+
+
