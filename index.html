@@ -72,6 +72,7 @@
         success: function(result){
           if (result.length > 0){
             const listaCursos = result;
+              $("#tabla-cursos tbody").html("");
               listaCursos.forEach(curso => {
                 //construimos una nueva fila
                 let nuevafila = ``;
